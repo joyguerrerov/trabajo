@@ -1,0 +1,14 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card {
+    width: 200px;
+    font-size: small;
+    border-radius: 5px;
+    border: solid 1px;
+}
